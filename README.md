@@ -21,7 +21,7 @@ This environment corresponds to the implementation of the [Khepera IV library fo
 * Action Space:
 
         Type: Box (1)
-		    Num	Action                    Min             Max
+        Num	Action                    Min             Max
         0	Angular Velocity         -pi/2            pi/2 
  
 * Reward:

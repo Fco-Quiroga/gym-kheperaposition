@@ -12,7 +12,7 @@ The objective of this environment is to drive the wheeled mobile robot from its 
       
 ### Source:
 
-This environment corresponds to the implementation of the [Khepera IV library for robotic control education using V-REP](https://www.sciencedirect.com/science/article/pii/S2405896317323303) for the position control experiment.
+This environment corresponds to the implementation of the [Khepera IV library for robotic control education using V-REP](https://www.sciencedirect.com/science/article/pii/S2405896317323303) for the position control experiment (G. Farías et la.).
 
 ### Observation Space:
 
@@ -31,9 +31,7 @@ This environment corresponds to the implementation of the [Khepera IV library fo
 ### Reward:
 
     	reward = -(d**2)
-      
-If the khepera reaches the target point, the reward = (300-steps)
-(the amaount of steps that the current episode).
+If the khepera reaches the target point, the reward = 300-steps      (the number of steps of the current episode).
         
 ### Episode Termination:
 

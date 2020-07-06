@@ -18,17 +18,20 @@ This environment corresponds to the implementation of the [Khepera IV library fo
         1	Target Angle              -pi              pi
         2	Error Angle               -pi              pi
 
-* Action Space:
+### Action Space:
 
         Type: Box (1)
         Num	Action                    Min             Max
         0	Angular Velocity         -pi/2            pi/2 
  
-* Reward:
+### Reward:
+
     	reward = -(d**2)
+      
     	If the khepera reaches the target point, the reward = (300-steps)
     	(the amaount of steps that the current episode has done)
         
-* Episode Termination:
+### Episode Termination:
+
         When the robot reaches the target point or the number of steps
         of the episode are greater than 300.

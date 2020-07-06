@@ -1,6 +1,6 @@
 # Gym_Env_Khepera_IV
 
-An OpenAI Gym Environment for the positional control of the mobile robot Khepera IV in [CoppeliaSim](https://www.coppeliarobotics.com/).
+An [OpenAI Gym](https://gym.openai.com/) Environment for the positional control of the mobile robot Khepera IV in [CoppeliaSim](https://www.coppeliarobotics.com/).
 
 ![imagen de CoppeliaSim y Khepera](/Img/CoppeliaSim_Khepera.png)
 

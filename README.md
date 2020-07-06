@@ -2,9 +2,13 @@
 
 An OpenAI Gym Environment for the positional control of the mobile robot Khepera IV in [CoppeliaSim](https://www.coppeliarobotics.com/).
 
+![imagen de CoppeliaSim y Khepera](/Img/CoppeliaSim_Khepera.png)
+
 ### Description:
 
-The objective of this environment is to drive the wheeled mobile robot from its current position to a predefined target point.    
+The objective of this environment is to drive the wheeled mobile robot from its current position to a predefined target point.
+
+![gif de entorno funcionando](/Img/Control-Khepera.gif)
       
 ### Source:
 

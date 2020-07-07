@@ -12,7 +12,7 @@ The objective of this environment is to drive the wheeled mobile robot from its 
       
 ### Source:
 
-This environment corresponds to the implementation of the [Khepera IV library for robotic control education using V-REP](https://www.sciencedirect.com/science/article/pii/S2405896317323303) for the position control experiment (G. Farías et la.).
+This environment corresponds to the implementation of the [Khepera IV library for robotic control education using V-REP](https://www.sciencedirect.com/science/article/pii/S2405896317323303) for the position control experiment (G. Farías et al.).
 
 ### Observation Space:
 

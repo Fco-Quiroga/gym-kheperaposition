@@ -30,7 +30,7 @@ When the robot reaches the target point or the number of steps of the episode ar
 
 ###  Observation:
         Type: Box(3)
-        Num	Observation               Min             Max
+	Num	Observation               Min             Max
         0	Distance to the target     0               5
         1	Target Angle              -pi              pi
         2	Error Angle               -pi              pi
@@ -47,14 +47,14 @@ When the robot reaches the target point or the number of steps of the episode ar
 
 ###  Observation:
         Type: Box(3)
-        Num	Observation               Min             Max
+	Num	Observation               Min             Max
         0	Distance to the target     0               5
         1	Target Angle              -pi              pi
         2	Error Angle               -pi              pi
 
 ###  Actions:
         Type: Discrete(3)
-        Num	 Action
+	Num	 Action
         0	 Turn left
         1	 Go straight
         2	 Turn right                
@@ -68,7 +68,7 @@ When the robot reaches the target point or the number of steps of the episode ar
 
 ###  Actions:
         Type: Discrete(3)
-        Num	 Action
+	Num	 Action
         0	 Turn left
         1	 Go straight
         2	 Turn right  

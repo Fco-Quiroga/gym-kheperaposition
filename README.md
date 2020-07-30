@@ -17,7 +17,7 @@ This environment corresponds to the implementation of the [Khepera IV library fo
 ### Reward:
 
     	reward = -(d**2)
-If the khepera reaches the target point, the reward = 300-steps      (the number of steps of the current episode).
+Additionally, if the khepera reaches the target point, the reward = 300-steps      (the number of steps of the current episode).
         
 ### Episode Termination:
 

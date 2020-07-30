@@ -24,7 +24,7 @@ If the khepera reaches the target point, the reward = 300-steps      (the number
 When the robot reaches the target point or the number of steps of the episode are greater than 300.
 
 
-#### There are three different environments, where the difference between them is the action and observation space.
+#### There are three environments, where the difference between them is the action and observation space.
 
 ## KheperaPositionControl-v0
 

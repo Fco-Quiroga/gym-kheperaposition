@@ -1,1 +1,4 @@
-from gym_kheperaposition.envs.kheperaposition_env import *
+from gym_kheperaposition.envs.kheperaposition_env import KheperaPosition
+from gym_kheperaposition.envs.kheperaposition_control import KheperaPositionControl
+from gym_kheperaposition.envs.kheperaposition_pixel import KheperaPositionPixel
+from gym_kheperaposition.envs.kheperaposition_discrete import KheperaPositionDiscrete

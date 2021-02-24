@@ -18,11 +18,7 @@ This environment corresponds to the implementation of the [Khepera IV library fo
 
 The reward function is defined in a way that, the closer the robot gets to the TP, the reward increases until it becomes zero. In addition, when using the environment to train an agent, collisions are allowed, but they are penalized, adding a negative factor $(r_{collision}=-10)$ to the reward, in this way the robot learns not to collide with obstacles. Also, when the robot reaches the TP, a positive reward is delivered $(r_{arrival}=100)$, rewarding the robot for reaching its goal.
 
-reward = \begin{cases}
-r_{arrival} & \text{if the robot reaches the TP}\\
-r_{collision}-(d)^2 & \text{if the robot collides}\\
--(d)^2 & \text{in another case}\\
-\end{cases}
+<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{equation}&space;reward&space;=&space;\begin{cases}&space;r_{arrival}&space;&&space;\text{if&space;the&space;robot&space;reaches&space;the&space;TP}\\&space;r_{collision}-(d)^2&space;&&space;\text{if&space;the&space;robot&space;collides}\\&space;-(d)^2&space;&&space;\text{in&space;another&space;case}\\&space;\end{cases}\label{eq5}\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\begin{equation}&space;reward&space;=&space;\begin{cases}&space;r_{arrival}&space;&&space;\text{if&space;the&space;robot&space;reaches&space;the&space;TP}\\&space;r_{collision}-(d)^2&space;&&space;\text{if&space;the&space;robot&space;collides}\\&space;-(d)^2&space;&&space;\text{in&space;another&space;case}\\&space;\end{cases}\label{eq5}\end{equation}" title="\begin{equation} reward = \begin{cases} r_{arrival} & \text{if the robot reaches the TP}\\ r_{collision}-(d)^2 & \text{if the robot collides}\\ -(d)^2 & \text{in another case}\\ \end{cases}\label{eq5}\end{equation}" /></a>
         
 ### Episode Termination:
 

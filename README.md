@@ -16,7 +16,14 @@ This environment corresponds to the implementation of the [Khepera IV library fo
  
 ### Reward:
 
-    	reward = -(d**2)
+\begin{equation}
+\centering
+\small
+reward = \begin{cases}
+r_{arrival} & \text{if the robot reaches the TP}\\
+r_{collision}-(d)^2 & \text{if the robot collides}\\
+-(d)^2 & \text{in another case}\\
+\end{cases}\label{eq5}\end{equation}
 Additionally, if the khepera reaches the target point, the reward = 300-steps      (the number of steps of the current episode).
         
 ### Episode Termination:

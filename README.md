@@ -16,6 +16,8 @@ This environment corresponds to the implementation of the [Khepera IV library fo
  
 ### Reward:
 
+The reward function is defined in a way that, the closer the robot gets to the TP, the reward increases until it becomes zero. In addition, when using the environment to train an agent, collisions are allowed, but they are penalized, adding a negative factor $(r_{collision}=-10)$ to the reward, in this way the robot learns not to collide with obstacles. Also, when the robot reaches the TP, a positive reward is delivered $(r_{arrival}=100)$, rewarding the robot for reaching its goal.
+
 \begin{equation}
 reward = \begin{cases}
 r_{arrival} & \text{if the robot reaches the TP}\\

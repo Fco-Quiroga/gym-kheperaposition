@@ -8,15 +8,20 @@ An [OpenAI Gym](https://gym.openai.com/) Environment for the positional control 
 
 The objective of this environment is to drive the wheeled mobile robot from its current position to a predefined target point.
 
-![gif de entorno funcionando](Img/position.gif)
-      
+
+<p align="center">
+  <img src="Img/position.gif" />
+</p>
+
 
 This environment corresponds to the implementation of the [Khepera IV library for robotic control education using V-REP](https://www.sciencedirect.com/science/article/pii/S2405896317323303) for the position control experiment (G. Farías et al.).
  
 
 The reward function is defined in a way that, the closer the robot gets to the TP, the reward increases until it becomes zero. In addition, when using the environment to train an agent, collisions are allowed, but they are penalized, adding a negative factor to the reward, in this way the robot learns not to collide with obstacles. Also, when the robot reaches the TP, a positive reward is delivered, rewarding the robot for reaching its goal.
 
-![formula](Img/formula.png)
+<p align="center">
+  <img src="Img/formula.png" />
+</p>
 
 Two environments were created with different action spaces, depending on the agent to be used. There is a discrete action space of size 3: turn left, go straight, or turn right. And a continuous set of actions, so that both the linear and angular velocity of the robot can be manipulated. Continuous actions are normalized to obtain better agent behavior, but in the environment, they are mapped to the allowed values of linear and angular velocity.
 

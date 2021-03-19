@@ -1,0 +1,2 @@
+from gym_kheperaposition.envs.kheperaposition_obstacle import KheperaPositionObstacle
+from gym_kheperaposition.envs.kheperaposition_obstacle_d import KheperaPositionObstacleD

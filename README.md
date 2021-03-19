@@ -37,3 +37,5 @@ The observation space for these environments correspond to the distance to the T
 
 
 Each episode ends when the TP is reached, when the maximum number of steps allowed per episode is exceeded, when the robot leaves the maximum allowed area (square side 2 m) or when the robot collides with an obstacle, if any. At the beginning of a new episode, the position of the TP and that of the robot are randomly changed, as is the orientation of the robot. 
+
+Note: gym-khepera position it's a python library that should be installed with the help of pip (pip install -e  gym-khepera position)

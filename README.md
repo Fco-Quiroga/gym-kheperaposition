@@ -3,6 +3,7 @@
 An [OpenAI Gym](https://gym.openai.com/) Environment for the positional control of the mobile robot Khepera IV in [CoppeliaSim](https://www.coppeliarobotics.com/).
 
 More information in the paper: [Position Control of a Mobile Robot through Deep Reinforcement Learning](https://www.mdpi.com/2076-3417/12/14/7194)
+
 ![imagen de CoppeliaSim y Khepera](Img/environment.png)
 
 ### Description:
